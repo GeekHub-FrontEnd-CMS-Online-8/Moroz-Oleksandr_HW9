@@ -1,0 +1,38 @@
+@import "variables";
+@import "fonts";
+@import "blocks/header";
+@import "blocks/services";
+@import "blocks/works";
+@import "blocks/testimonials";
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	max-width: 1600px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.b-page__line {
+	width: 1600px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+		color: $w;
+	}
+}
+

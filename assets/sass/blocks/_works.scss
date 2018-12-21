@@ -1,0 +1,53 @@
+
+.picture-album {
+	width: 1602px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.picture__hover {
+	width: 320px;
+	height: 200px;
+	position: relative;
+	
+}
+
+.after {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+		.picture__desc {
+			font-size: 13px;
+			line-height: 20px;
+			color: #f2f2f2;
+			font-family: 'montserrat', sans-serif;
+			text-transform: capitalize;
+			
+		}
+}
+
+.picture__hover:hover .after, .picture__desc {
+    display: flex;
+	justify-content: center;
+	align-items:center; 
+	flex-direction: column;
+    background: linear-gradient(rgba(72, 85, 99, 0.7), rgba(41, 50, 60, 0.7));
+	
+	
+}
+
+
+
+
