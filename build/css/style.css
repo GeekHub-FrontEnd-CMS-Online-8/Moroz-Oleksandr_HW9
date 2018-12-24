@@ -72,13 +72,15 @@ logo:active {
     height: 100%; }
     .hidden-menu ul li a {
       display: inline-block;
-      margin: 20px auto;
+      margin: 10px auto;
       color: #fff;
       width: 100%;
       height: 100%;
       text-transform: uppercase;
       font-family: "Montserrat regular", sans-serif;
       font-size: 14px; }
+      .hidden-menu ul li a:hover {
+        text-decoration: underline; }
 
 .btn-menu {
   display: flex;
@@ -249,7 +251,7 @@ logo:active {
   position: relative;
   width: inherit; }
 
-.slider__wrapper > input {
+.slider_wrapper > input {
   display: none; }
 
 .slides {
@@ -297,25 +299,30 @@ logo:active {
 
 .slider_wrapper .controls {
   left: 50%;
-  margin-left: -98px;
+  margin-left: -56px;
   position: absolute; }
 
 .slider_wrapper label {
+  text-align: center;
   cursor: pointer;
   display: inline-block;
   height: 8px;
-  margin: 25px 12px 0 160px;
   position: relative;
   width: 8px;
+  margin: 25px 12px 0 16px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  -webkit-transition: background ease-in-out .5s;
+  -moz-transition: background ease-in-out .5s;
+  -o-transition: background ease-in-out .5s;
+  transition: background ease-in-out .5s; }
 
 .slider_wrapper label:after {
-  border: 2px solid #fff;
+  border: 2px solid #000;
   content: " ";
-  display: block;
+  display: inline-block;
   height: 12px;
   left: -4px;
   position: absolute;
@@ -326,26 +333,11 @@ logo:active {
   -o-border-radius: 50%;
   border-radius: 50%; }
 
-.slider__wrapper label {
-  cursor: pointer;
-  display: inline-block;
-  height: 8px;
-  position: relative;
-  width: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: background ease-in-out .5s;
-  -moz-transition: background ease-in-out .5s;
-  -o-transition: background ease-in-out .5s;
-  transition: background ease-in-out .5s; }
-
-.slider__wrapper label:hover,
+.slider_wrapper label:hover,
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3) {
-  background: #fff; }
+  background: #485563; }
 
 .slides {
   height: inherit;
@@ -371,6 +363,87 @@ logo:active {
   -moz-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1); }
+
+#team {
+  width: 100%;
+  min-height: 900px;
+  background: linear-gradient(rgba(72, 85, 99, 0.7), rgba(41, 50, 60, 0.7)), url(../img/team_bcg.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: 100px;
+  padding-top: 0; }
+
+.picture-team {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px; }
+
+.b-container__descrip.team {
+  padding-top: 100px; }
+
+.b-container__title.team, .b-container__subtitle.team {
+  color: #fff; }
+
+.b-container__line.team {
+  background-color: #fff; }
+
+.team_picture {
+  margin: 0px 25px 0px 0px; }
+
+.team_picture:last-child {
+  margin-right: 0px; }
+
+.picture-service__caption.team {
+  font-size: 15px;
+  line-height: 20px;
+  color: #29323c;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(242, 242, 242, 0.7);
+  padding-bottom: 30px; }
+
+.picture-service__descrip.team {
+  font-size: 14px;
+  line-height: 20px;
+  color: #29323c;
+  font-family: "Montserrat";
+  text-align: center;
+  text-transform: capitalize; }
+
+.picture-team__social {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.picture-team__social a {
+  margin-right: 5px; }
+
+.picture-team__social img:hover {
+  transform: scale(1.2);
+  transition-delay: 0.1s; }
+
+.learn.team {
+  width: 200px; }
+
+.picture__hover.team {
+  width: 270px;
+  height: 270px;
+  position: relative; }
+
+.b-page__line#clients {
+  background-color: #f5f5f5;
+  height: 150px;
+  padding-top: 0px; }
+
+.picture-clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px; }
+
+#clients h3 {
+  display: none; }
 
 body {
   margin: 0;

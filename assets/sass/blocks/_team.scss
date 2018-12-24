@@ -1,0 +1,80 @@
+#team{
+	width: 100%;
+	min-height: 900px;
+	background: linear-gradient(rgba(72, 85, 99, 0.7), rgba(41, 50, 60, 0.7)), url(../img/team_bcg.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 100px;
+	padding-top: 0;
+}
+.picture-team {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 90px;
+}
+
+.b-container__descrip.team {
+	padding-top: 100px;
+}
+
+.b-container__title.team, .b-container__subtitle.team {
+	color: #fff;
+}
+
+.b-container__line.team {
+	background-color: #fff;
+}
+
+.team_picture {
+	margin: 0px 25px 0px 0px;
+}
+
+.team_picture:last-child {
+	margin-right: 0px;
+}
+
+.picture-service__caption.team {
+	font-size: 15px;
+	line-height: 20px;
+	color: #29323c;
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	background-color: rgba(242, 242, 242, 0.7);
+	padding-bottom: 30px;
+}
+
+.picture-service__descrip.team {
+	font-size: 14px;
+	line-height: 20px;
+	color: #29323c;
+	font-family: "Montserrat";
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.picture-team__social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture-team__social a{
+	margin-right: 5px;
+}
+
+.picture-team__social img:hover {
+	transform: scale(1.2);
+	transition-delay: 0.1s;
+}
+
+.learn.team {
+	width: 200px;
+}
+
+.picture__hover.team {
+	width: 270px;
+	height: 270px;
+	position: relative;
+}
+

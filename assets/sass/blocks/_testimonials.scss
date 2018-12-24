@@ -16,7 +16,7 @@
 	
 }
 
-.slider__wrapper > input {
+.slider_wrapper > input {
 	display: none;
 }
 
@@ -70,27 +70,33 @@
 
 .slider_wrapper .controls {
 	left: 50%;
-	margin-left: -98px;
+	margin-left: -56px;
 	position: absolute;
 }
 
 .slider_wrapper label {
+	text-align: center;
 	cursor: pointer;
 	display: inline-block;
 	height: 8px;
-	margin: 25px 12px 0 160px;
 	position: relative;
 	width: 8px;
+	margin: 25px 12px 0 16px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+	
 }
 
 .slider_wrapper label:after {
-	border: 2px solid #fff;
+	border: 2px solid #000;
 	content: " ";
-	display: block;
+	display: inline-block;
 	height: 12px;
 	left: -4px;
 	position: absolute;
@@ -102,28 +108,13 @@
 	border-radius: 50%;
 }
 
-.slider__wrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 8px;
-	position: relative;
-	width: 8px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-transition: background ease-in-out .5s;
-	-moz-transition: background ease-in-out .5s;
-	-o-transition: background ease-in-out .5s;
-	transition: background ease-in-out .5s;
-}
-
-.slider__wrapper label:hover, 
+.slider_wrapper label:hover,
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3), {
-	background: #fff;
+	background: rgba(72, 85, 99, 1);
 }
+
 
 .slides {
 	height: inherit;
