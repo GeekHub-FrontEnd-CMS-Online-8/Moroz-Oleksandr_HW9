@@ -4,6 +4,17 @@
 	height: 650px;
 	padding-top: 0;
 	display: flex;
+	h3 {
+		display: none;
+	}
+	
+}
+
+.map iframe {
+	width: 800px;
+	height: 649px;
+
+	border: 0; 
 	
 }
 
