@@ -1,0 +1,143 @@
+
+.pracing__table {
+	display: flex;
+	width: 1170px;
+	height: 540px;
+	justify-content: center;
+	margin-top: 75px;
+	margin-bottom: 80px;
+	
+	
+}
+
+.pricing__table_item1, .pricing__table_item3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 385px;
+	height: 500px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+
+.pricing__table_item2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 541px;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	margin-top: -40px;
+	
+}
+
+.pricing__table_item1-head{
+	height: 160px;
+	width:inherit;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.pricing__table_item2-head {
+	height: 197px;
+	width:inherit;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 5px solid #485563;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.pricing__table_item1-body{
+	width: inherit;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pricing__table_desc, .pricing__table_price, .pricing__table_date, .pricing__table_desc2 {
+	margin-top: 0;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-end;
+	width: 126px;
+	height: 40px;
+	border-radius: 35px;
+	background: none;
+	font-family: "Montserrat Bold", sans-serif;
+	font-size: 13px;
+	color: $w;
+	text-transform: uppercase;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #485563;
+	text-align: center;
+	
+}
+
+.button.button1 {
+	margin-top: 78px;
+}
+
+.button.button2 {
+	margin-top: 40px;
+}
+ 
+
+.pricing__table_desc {
+	font-family: 'opensans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #485563;
+}
+
+.pricing__table_desc2 {
+	font-family: 'opensans', sans-serif;
+	font-size: 20px;
+	color: #485563;
+	text-transform: capitalize;
+}
+
+.pricing__table_price {
+	font-family: 'opensans', sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	color: #485563;
+	margin-bottom: 0;
+}
+
+.pricing__table_date {
+	font-family: 'opensans', sans-serif;
+	font-size: 14px;
+	color: #485563;
+	text-transform: uppercase;
+}
+
+.pricing__table_body {
+	font-family: 'opensans', sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	color: #485563;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
